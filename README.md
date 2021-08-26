@@ -14,8 +14,8 @@ Abaixo algumas imagens da minha versão do contador, tanto para navegador em des
  <img src='design/desktop2.png'  />
  <img src='design/desktop3.png'  />
 </div>
-<div style='display:flex; margin-top: 10px'> 
- <img src='design/mobile1.png' width=33%/>
- <img src='design/mobile2.png' width=33% />
- <img src='design/mobile3.png' width=33% />
+<div width=100% align='center' > 
+ <img src='design/mobile1.png' width=30%/>
+ <img src='design/mobile2.png' width=30% />
+ <img src='design/mobile3.png' width=30% />
 </div>
