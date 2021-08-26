@@ -1,2 +1,21 @@
 # contador-dev-challenges
- Desafio de criar um contador de dias, horas, minutos e segundos, baseado numa data passada como valor.
+ Desafio da [Dev Challenge](https://github.com/devchallenge-io), de criar um contador de dias, horas, minutos e segundos, baseado numa data passada como valor.
+
+## Tecnologias usadas:
+ - HTML
+ - CSS
+ - JavaScript Vanilla
+
+Preferi modificar um pouco o layout proposto no desafio, mas deixando bem simples e agradável. <br/>
+Abaixo algumas imagens da minha versão do contador, tanto para navegador em desktop, quanto para mobile.
+
+<div style='text-align:center'> 
+ <img src='design/desktop1.png' />
+ <img src='design/desktop2.png'  />
+ <img src='design/desktop3.png'  />
+</div>
+<div style='display:flex; margin-top: 10px'> 
+ <img src='design/mobile1.png' width=33%/>
+ <img src='design/mobile2.png' width=33% />
+ <img src='design/mobile3.png' width=33% />
+</div>
