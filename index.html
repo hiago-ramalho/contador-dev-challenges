@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contador</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="container-form">
+      <form action="" class="counter-form">
+        <h2 class="title">CONTADOR</h2>
+        <span>(Dias/Horas/Minutos/Segundos)</span>
+        <label for="date">Informe uma data:</label>
+        <input type="date" name="date" id="date" class="input-date" required />
+        <button class="btn start-button">Iniciar</button>
+      </form>
+    </section>
+
+    <section class="counter-modal">
+      <div class="modal-container">
+        <header>
+          <h2 class="title">CONTADOR</h2>
+          <button class="btn return">Voltar</button>
+        </header>
+
+        <section class="counter-container">
+          <h2 class="title">FALTAM</h2>
+          <div class="counter-content">
+            <div class="counter-digit">
+              <h1 class="counter-number" id="days"></h1>
+              <h3 class="sub-title">Dias</h3>
+            </div>
+            <div class="counter-digit">
+              <h1 class="counter-number" id="hours"></h1>
+              <h3 class="sub-title">Horas</h3>
+            </div>
+            <div class="counter-digit">
+              <h1 class="counter-number" id="minutes"></h1>
+              <h3 class="sub-title">Minutos</h3>
+            </div>
+            <div class="counter-digit">
+              <h1 class="counter-number" id="seconds"></h1>
+              <h3 class="sub-title">Segundos</h3>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="message-error">
+        <p class="message-error"></p>
+        <button class="btn close-error">Voltar</button>
+      </div>
+    </section>
+
+    <!-- <script src="./scripts/modal.js" defer></script> -->
+    <script src="./scripts/main.js" defer></script>
+  </body>
+</html>
